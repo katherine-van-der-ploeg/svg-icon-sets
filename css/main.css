@@ -1,3 +1,58 @@
 html {
-  font-family: 'Overpass', sans-serif;
+  font-family: Overpass, sans-serif;
+  background-color: #ff9500;
+  background-image: linear-gradient(to bottom, #ff9500, #ff5e3a);
+}
+
+h1 {
+  color: #fff;
+}
+
+.icn {
+  color: #fff;
+}
+
+h2 {
+  color: #fff;
+}
+
+p {
+  color: #fff;
+}
+
+.card {
+  border-bottom: solid 3px;
+  border-color: rgba(255, 255, 255, .5);
+}
+
+.card:nth-child(3) {
+  border: none;
+}
+
+.btn {
+  border-color: rgba(255, 255, 255, .8);
+  color: #fff;
+}
+
+.btn:hover {
+  border-color: #ff5e3a;
+  color: #ff5e3a;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .card {
+    border-bottom: none;
+    border-right: solid 3px;
+    border-color: rgba(255, 255, 255, .5);
+  }
+
+  .card:nth-child(3) {
+    border: none;
+    padding-top: 3em;
+  }
+
+  .card:nth-child(2) {
+    padding-top: 3em;
+  }
 }
